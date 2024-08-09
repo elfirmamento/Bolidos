@@ -1,5 +1,5 @@
 # Bolidos
-programa de detección de meteoros y bólidos en archivos MP4
+programa de detección de meteoros y bólidos en archivos MP4.
 
 Lenguaje Python v.3.10
 requiere librerias como ser OpenCV hasta la versión 0.6 incluida.
@@ -19,5 +19,17 @@ diferentes tipos de bólidos o meteoros detectados para ser usados en la detecci
 
 Hasta el momento tira error en la línea 6 "import torch". Tengo la librería cargada y me gustaría seguir avanzando en el presente proyecto
 mejorando entre todos los resultados.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+English text
 
+Meteor and bolide detection program in MP4 files.
 
+Language Python v.3.10 requires libraries such as OpenCV up to version 0.6 included. From version 0.7 (still with errors) requires adding the torch and torchvision libraries to use the YOLOv5s model
+
+The program is still in beta and requires several adjustments for better detection such as error correction. A combination of different parameters is used to detect traces, flashes, frame comparison, among others. The program detects meteor or fireball events, captures the image and saves it in jpg format in the folder called "detected_events" and in turn creates (if it does not exist) a txt file called "events_info.txt" to save the record of the coordinates, time, event number
+
+To use a video in mp4 format, for the moment, I call it video4.mp4
+
+Version 0.7 ///////////// in which I have problems using the library, I want to use torch and torchvision calling the YOLOv5s model to work with a self-learning database; in this way, when it records an event, it adds it to the database thus having different types of fireballs or meteors detected to be used in the detection of future events.
+
+So far it throws an error on line 6 "import torch". I have the library loaded and I would like to continue advancing in the present project improving the results among all.
