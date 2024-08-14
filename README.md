@@ -12,6 +12,14 @@ y a su vez crea (si no existe) un archivo txt llamado "events_info.txt" para gua
 
 Para utilizar un video formato mp4, por el momento, lo llamo video4.mp4
 
+Versión 0.82 ////////////
+Estable, detecta eventos como ser bólidos, trazas, meteoros de una cierta magnitud.
+No se recomienda modificar parámetros si existiera, en el campo de la cámara, alguna estructura o luces artificiales ya que detectaría falsos eventos.
+Se ha probado en un gran número de eventos (meteoros, bólidos) y todos han sido detectados (100%). Un dato no menor: si el usuario desea volver a ejecutar el mismo archivo, coincidirán los eventos detectados.
+
+Esta presente versión no trabaja con base de datos o AUTOAPRENDIZAJE (únicamente la v0.7). 
+
+
 Versión 0.7 /////////////
 en la cual poseo problemas en el uso de librería, quiero utilizar torch y torchvision llamando el modelo YOLOv5s
 para trabajar con una base de datos de autoaprendizaje; de esta manera, cuando registra un evento, lo agrega a la base teniendo así
